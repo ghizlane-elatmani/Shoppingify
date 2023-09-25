@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -11,6 +10,8 @@ module.exports = {
       colors: {
         primary: "#F9A109",
         "primary-dark": "#e09108",
+        drawer: "#FFF0DE",
+        "dark-red": "#80485B",
       },
     },
   },

@@ -5,3 +5,15 @@
 body {
   background-color: #fafafe;
 }
+
+.heading-2 {
+  @apply text-lg font-medium mb-4;
+}
+
+.btn-add {
+  @apply bg-white border border-stone-100 rounded-lg overflow-hidden py-2 px-4 shadow-sm flex items-start text-start gap-3 font-medium hover:shadow-lg;
+}
+
+.btn-add-white {
+  @apply bg-white text-black text-sm font-bold rounded-lg py-2 px-4 shadow-sm flex items-start text-start gap-3 hover:shadow-lg;
+}
